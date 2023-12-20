@@ -233,7 +233,7 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onClick={handleButtonClick} gen-slate-btn>
+          <button onClick={handleButtonClick} gen-slate-btn style="white-space: nowrap;">
             发送
           </button>
           <button title="清除" onClick={clear} gen-slate-btn>
